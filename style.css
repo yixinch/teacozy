@@ -1,0 +1,130 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: seashell;
+  padding: 20px 10px;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header nav {
+  text-align: right;
+  flex-grow: 1;
+}
+
+/* content */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+  z-index: 1;
+}
+
+/* Our Mission */
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  padding-top: 70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+#mission h2,
+#mission h4 {
+  background-color: black;
+  width: 1200px;
+  padding: 10px;
+  margin: 0;
+}
+
+/* Featured Tea */
+#tea {
+  width: 1000px;
+  padding: 70px 0;
+}
+
+#tea h2,
+#tea h4 {
+  padding: 10px;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.food-block {
+  width: 300px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.food-block img {
+  width: 300px;
+  height: 200px;
+  padding-bottom: 10px;
+}
+
+/* Locations */
+
+#locations {
+  justify-content: flex-start;
+  width: 1200px;
+  height: 500px;
+  padding: 50px 0;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.loc-block {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 15px 20px;
+}
+
+/* footer */
+
+footer .info {
+  height: 200px;
+}
+
+footer .copyright {
+  padding-left: 20px;
+  text-align: left;
+}
